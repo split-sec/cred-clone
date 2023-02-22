@@ -1,0 +1,190 @@
+/*
+*************************************
+****************TODOS****************
+1. Adding responsive nature
+2. Adding Bottom section
+3. Trust section
+*************************************
+*/
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('/fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+    flex-grow: 1;
+}
+
+#hero-section {
+    padding: 60px 200px 200px;
+    background: url("/images/hero-bg.png");
+    background-repeat: repeat;
+    background-origin: content-box;
+}
+
+#cred-logo {
+    width: 49px;
+    height: 66px;
+}
+
+.left-navbar a {
+    font-family: 'Gilroy-SemiBold';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 36px;
+    white-space: nowrap;
+    margin-left: 36px;
+    padding: 4px 0;
+}
+
+/* #credit-score-check, #cred-pay {
+    margin-left: 36px;
+    padding: 4px 0;
+} */
+
+.hero-div {
+    flex-direction: column;
+}
+
+#hero-text1 {
+    /* font-family: Gilroy-Bold;
+    font-size: 82px;
+    color: rgb(248, 248, 248);
+    margin-top: 125px; */
+
+    font-size: 105px;
+    font-family: Gilroy-Bold;
+    /* font-size: 150px; */
+    letter-spacing: -2px;
+    /* line-height: 150px; */
+    text-align: center;
+    margin: 100px 0 0;
+    color: rgb(248, 248, 248);
+}
+
+#hero-text2 {
+    font-size: 32px;
+    font-family: Gilroy-Bold;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 20px 0 0;
+    color: rgb(248, 248, 248);
+}
+
+/*
+82px Gilroy-Bold
+Margin-top: 100px;
+
+*/
+
+#button-placeholder {
+    margin: 40px 0 0;
+}
+
+#download-CRED {
+    background-color: rgb(248, 248, 248);
+    border: none;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 20px 65px;
+}
+
+.container-mockup {
+    display: grid;
+    grid-template-rows: auto 800px;
+}
+
+.mockup-placeholder {
+    padding-top: 200px;
+    position: relative;
+    height: 775px;
+    background-image: url("/images/hero-bg.png");
+    background-repeat: repeat;
+    background-origin: content-box;
+    /* display: inline-block; */
+    /* grid-area: 1/ */
+}
+
+.mockup-placeholder > img {
+    overflow: hidden;
+}
+
+#mockup-right2 {
+    position: absolute;
+    right: 0;
+    margin-right: 20px; 
+    top: 175px;
+    /* height: 750px; */
+}
+
+#mockup-left2 {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    top: 175px;
+    /* height: 750px; */
+}
+
+#mockup-right1 {
+    position: absolute;
+    right: 25%;
+    transform: translateX(25%);
+    top: 100px;
+    /* height: 750px; */
+}
+
+#mockup-left1 {
+    position: absolute;
+    left: 25%;
+    transform: translateX(-25%);
+    top: 100px;
+    /* height: 750px; */
+}
+
+#mockup-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    /* height: 750px; */
+}
+
+.feel-special-section {
+    height: 1000px;
+    z-index: 1;
+    background-image: url("/images/deserve-more-bg.webp");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    /* background-position: center center; */
+    background-size: contain;
+}
