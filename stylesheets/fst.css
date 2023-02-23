@@ -198,7 +198,7 @@
 ****************************/
 
 .mockup-parallax {
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url(/images/neopop-image-mock.png);
     background-attachment: fixed;
     background-position: center;
@@ -341,10 +341,6 @@
 }
 
 .rating-ios {
-    /* height: 1em; */
-    /* background-image: url(/images/rating-ios.png);
-    background-position: center;
-    background-size: cover; */
     padding-left: 40px;
     margin-bottom: 44px;
 }
@@ -392,7 +388,7 @@
 .head-text {
     font-family: Gilroy-Bold;
     font-size: 18px;
-    letter-spacing: 0.75;
+    letter-spacing: 0.75px;
     margin-bottom: 24px;
 }
 
@@ -416,7 +412,7 @@ hr {
 
 .footer-section {
     background-color: rgb(22, 21, 23);
-    padding: 100px 200px;
+    padding: 100px 200px 100px 200px;
     color:rgb(248, 248, 248);
 }
 
@@ -430,17 +426,69 @@ hr {
 
 .footer-top-left-container {
     flex-direction: column;
+    /* padding-right: px; */
+    flex: 2;
+}
+
+.cred-logo-placeholder {
+    margin-bottom: 6em;
+}
+
+.cred-logo-placeholder img {
+    height: 3.5em;
+}
+
+.security-logo-placeholder {
+    margin-bottom: 2.5em;
+}
+
+.security-logo-placeholder img {
+    height: 4.2em;
 }
 
 .cred-encryption-text {
     flex-direction: column;
 }
 
-.footer-top-center-container, .footer-top-right-container {
+.cred-guarantee-text {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+.contain-footer-elements {
     flex-direction: column;
+}
+
+.footer-top-center-container, .footer-top-right-container {
+    /* flex-direction: column; */
+    font-size: 20px;
+    flex: 1;
 }
 
 .footer-top-center-container-1, .footer-top-center-container-2,
 .footer-top-right-container-1, footer-top-right-container-2 {
     flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer-top-center-container-2 {
+    margin-left: 100px;
+}
+
+.footer-top-right-container-2 {
+    margin-left: 100px;
+}
+
+.footer-bottom-left-container {
+    flex: 1;
+}
+
+.footer-bottom-right-container {
+    flex: 1;
+}
+
+.copyright-text {
+    font-size: 16px;
+    letter-spacing: normal;
+    opacity: 0.5;
 }
